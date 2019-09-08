@@ -4,7 +4,7 @@ description: >-
   in the cloud
 ---
 
-# Networking Essentials
+# Networking
 
 ## Internet 
 
