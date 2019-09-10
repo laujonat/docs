@@ -1,10 +1,24 @@
-# Useful Utilities & Commands
+---
+description: >-
+  A process refers to a program in execution; it’s a running instance of a
+  program. It is made up of the program instruction, data read from files, other
+  programs or input from a system user.
+---
 
-### Process Status  
+# Process Management
+
+## Viewing Active Processes
 
 * The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals. 
 
+#### Listing Processes
+
 ```text
+# ps = process status
+# a = show processes for all users 
+# u = display the process's user/owner 
+# x = also show processes not attached to a terminal
+
 $ ps aux
 ```
 
@@ -27,5 +41,21 @@ root  30569   0.0  0.0  4325312   5984   ??  Ss    6:49PM   0:00.05 sshd: user[p
 user  30568   0.0  0.0  4396884   5876 s007  S+    6:49PM   0:00.27 ssh localhost
 ```
 
+#### Killing Processes
 
+* The output from the second column from the `ps aux` is the `PID`
+
+```text
+$ kill 30568 # kill user ssh localhost process
+```
+
+* Kill multiple `ssh-agent` processes.
+
+```text
+$ ps aux | grep 'ssh-agent' | awk '{print $2}' | xargs kill -9
+```
+
+#### **Source**
+
+* [https://www.tecmint.com/linux-process-management/](https://www.tecmint.com/linux-process-management/)
 

@@ -4,7 +4,7 @@
 * [Linux](linux/README.md)
   * [System Overview](linux/untitled.md)
   * [The Sudo](linux/sudo.md)
-  * [Useful Utilities & Commands](linux/useful-utilities-and-commands.md)
+  * [Process Management](linux/useful-utilities-and-commands.md)
 * [Networking](network-concepts/README.md)
   * [Terminology](network-concepts/terminology.md)
   * [Network Interfaces](network-concepts/network-interfaces.md)
@@ -13,7 +13,8 @@
 ## SSH
 
 * [Digital Signatures](ssh/untitled.md)
-* [Forward Agent](ssh/untitled-1.md)
+* [Authentication](ssh/beginners-guide/README.md)
+  * [SSH Agent](ssh/beginners-guide/untitled-1.md)
 
 ## AWS EC2
 
