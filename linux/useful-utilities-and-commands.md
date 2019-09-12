@@ -13,7 +13,7 @@ description: >-
 
 #### Listing Processes
 
-```text
+```bash
 # ps = process status
 # a = show processes for all users 
 # u = display the process's user/owner 
@@ -24,13 +24,13 @@ $ ps aux
 
 * SSH in and then use the ps command to list running processes in conjunction with the `(grep|egrep)` command to filter that result list down to what you need.
 
-```text
+```bash
 $ ps aux | egrep <thing>
 ```
 
 * For example, connect to `localhost` with `ssh`. Running our command, we can see a user is connected to our local system. 
 
-```text
+```bash
 $ ssh localhost
 Last login: Sat Sep  7 22:49:42 2019
 
@@ -43,16 +43,23 @@ user  30568   0.0  0.0  4396884   5876 s007  S+    6:49PM   0:00.27 ssh localhos
 
 #### Killing Processes
 
-* The output from the second column from the `ps aux` is the `PID`
+* `ps aux` outputs the process identifier `PID` in the second column.
 
-```text
+```bash
 $ kill 30568 # kill user ssh localhost process
 ```
 
 * Kill multiple `ssh-agent` processes.
 
-```text
+```bash
 $ ps aux | grep 'ssh-agent' | awk '{print $2}' | xargs kill -9
+```
+
+* Use `killall` to kill all processes by name. 
+  * You can perform a specified action such as `--older-than <unix-time>`
+
+```bash
+killall $(ps aux | grep ssh | awk '{print $2}') —older-than 1w
 ```
 
 #### **Source**

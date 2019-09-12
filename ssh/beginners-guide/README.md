@@ -1,6 +1,8 @@
 # Authentication
 
-An **SSH** client allows you to **connect** to a remote computer running an **SSH** server. You can connect to a remote machine using the IPv4 or IPv6 addresses with their respective hostname\(s\). 
+An **SSH** client allows you to **connect** to a remote computer running an **SSH** server. 
+
+You can connect to a remote machine using the IPv4 or IPv6 addresses with their respective hostname\(s\).  
 
 ## Establishing Remote Connections
 
