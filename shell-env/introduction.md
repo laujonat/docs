@@ -4,7 +4,7 @@ description: >-
   some opinionated shell configurations.
 ---
 
-# Introduction
+# Overview
 
 ## Executables
 

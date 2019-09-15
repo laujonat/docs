@@ -16,7 +16,6 @@
 * [Digital Signatures](ssh/untitled.md)
 * [Authentication](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
-* [Untitled](ssh/untitled-1.md)
 
 ## AWS EC2
 
@@ -24,10 +23,10 @@
   * [IAM - Identity Access Management](aws-ec2/overview/untitled.md)
 * [Instance Configuration](aws-ec2/ec2.md)
 
-## Shell Environments <a id="shell-env"></a>
+## Shell Interfaces <a id="shell-env"></a>
 
-* [Introduction](shell-env/introduction.md)
-* [Bash](shell-env/untitled.md)
+* [Overview](shell-env/introduction.md)
+* [Bash](shell-env/bash.md)
 * [Z Shell \(Extended Unix Shell\)](shell-env/zsh-the-z-shell.md)
 
 ## Vim

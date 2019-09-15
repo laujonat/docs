@@ -9,6 +9,7 @@ description: >-
 
 **Sources**
 
+* [https://www.systutorials.com/linux-manuals/](https://www.systutorials.com/linux-manuals/)
 * [https://www.linux.com/what-is-linux/](https://www.linux.com/what-is-linux/)
 * [https://lifehacker.com/how-to-get-started-with-the-linux-operating-system-1819644874](https://lifehacker.com/how-to-get-started-with-the-linux-operating-system-1819644874)
 
