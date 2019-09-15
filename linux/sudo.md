@@ -1,10 +1,6 @@
-# The Sudo
+# Sudo Superuser
 
 ## Sudo
-
-Concepts I wish someone spelled out for me when I was learning about Linux Systems.‌
-
-## Sudo <a id="sudo"></a>
 
 ‌
 
