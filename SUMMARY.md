@@ -1,15 +1,15 @@
 # Table of contents
 
-* [A Noob's Guide to Remote Servers](README.md)
+* [Friendly Guide Into Cloud Servers](README.md)
 * [Linux](linux/README.md)
   * [System Overview](linux/untitled.md)
   * [Sudo Superuser](linux/sudo.md)
   * [Process Management](linux/useful-utilities-and-commands.md)
 * [Networking](network-concepts/README.md)
-  * [Terminology](network-concepts/terminology.md)
+  * [Prerequisites](network-concepts/terminology.md)
   * [Network Interfaces](network-concepts/network-interfaces.md)
   * [Internet Protocols](network-concepts/internet-protocols.md)
-* [Basic Tips](neat-tips.md)
+* [Familiarizing](neat-tips.md)
 
 ## SSH
 

@@ -1,10 +1,12 @@
 ---
-description: This section contains basic Linux commands I use daily.
+description: >-
+  In order to reap the full benefits of managing a Linux server, it is important
+  to become familiar with the command line.
 ---
 
-# Basic Tips
+# Familiarizing
 
-#### List Files
+## List Files
 
 #### `ls`
 
@@ -20,9 +22,7 @@ The df utility displays statistics about the amount of free disk space on the sp
   * `df -h` - Use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte.
   * `df -l` - Only display information about locally-mounted filesystems
 
-**Source**
-
-* [https://www.systutorials.com/docs/linux/man/1p-df/](https://www.systutorials.com/docs/linux/man/1p-df/)
+\*\*\*\*
 
 ### `du`
 
@@ -68,4 +68,8 @@ awk -v h="172.31.98.85" '$1 == "Host" {r = $2} $1 == "Hostname" && $2 == h {prin
   
  `for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done`  
 
+
+**Source**
+
+* [https://www.systutorials.com/docs/linux/man/1p-df/](https://www.systutorials.com/docs/linux/man/1p-df/)
 
