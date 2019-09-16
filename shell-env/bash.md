@@ -6,6 +6,12 @@ description: >-
 
 # Bash
 
+In the Bash, you can use the uppercase variable name equal to some value to set both shell and environment variables. You also have to use the export command to activate the variables for any subsequently executed commands.
+
+**Source**
+
+* [https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html](https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html)
+
 ### Load Order
 
 1. `/etc/profile`

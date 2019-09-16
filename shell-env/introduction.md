@@ -1,10 +1,36 @@
 ---
-description: >-
-  This section contains a set of personal notes working with Linux systems and
-  some opinionated shell configurations.
+description: This section contains information for configuring a Linux shell environment.
 ---
 
 # Overview
+
+## Concepts 
+
+Like most things, you don't have to know every detail of everything. And the same goes for Linux. But it is important to understand the following non-extensive list:
+
+* Modify global and user profiles
+* Set environment variables when you log in or spawn a new shell
+* Create bash functions for frequently used sequences of commands
+* Maintain skeleton directories for new user accounts
+* Set your command search path
+
+**Sources**
+
+* [https://developer.ibm.com/tutorials/l-lpic1-105-1/](https://developer.ibm.com/tutorials/l-lpic1-105-1/)
+* [https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html](https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html)
+* [https://searchdatacenter.techtarget.com/definition/Linux-stream](https://searchdatacenter.techtarget.com/definition/Linux-stream)
+
+## Streams
+
+Streams are created by entering characters from a keyboard. Different Linux [commands](https://searchwindowsserver.techtarget.com/definition/command), such as sed, allow users to manipulate the stream text, in this case editing the stream.
+
+#### Input Stream
+
+* The input stream is a program to interact with your system by typing commands \(the _input stream_\) on the command line. 
+
+#### Output Stream
+
+*  The output stream displays command outputs and error messages. Error messages are referred to as the _**error stream**._
 
 ## Executables
 
@@ -19,7 +45,7 @@ Unix-like operating systems provides the `/bin`directory which contains programs
 
 * [http://www.linfo.org/](http://www.linfo.org/)
 
-## Shell Scripting
+## Scripts
 
 ### Login Shell
 
