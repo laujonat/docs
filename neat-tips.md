@@ -1,10 +1,11 @@
 ---
 description: >-
   In order to reap the full benefits of managing a Linux server, it is important
-  to become familiar with the command line.
+  to become familiar with the command line.  This section covers extensions to
+  common commands I use regularly.
 ---
 
-# Familiarizing
+# Moving On
 
 ## List Files
 

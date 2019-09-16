@@ -4,9 +4,13 @@ description: This section contains information for configuring a Linux shell env
 
 # Overview
 
-## Concepts 
+## Why Shell Scripting?
 
-Like most things, you don't have to know every detail of everything. And the same goes for Linux. But it is important to understand the following non-extensive list:
+Shell scripting is an extensive topic that will not be covered entirely in this documentation. I still recommend you do explore various shell environments to find one that best suits your development needs. 
+
+In simple terms, scripts run in the shell and read by the shell's interpreter. Maximize your developer efficiency by modifying or creating custom commands that suit your project needs. 
+
+Here are some things you can do with Shell environments:  
 
 * Modify global and user profiles
 * Set environment variables when you log in or spawn a new shell
@@ -26,11 +30,11 @@ Streams are created by entering characters from a keyboard. Different Linux [com
 
 #### Input Stream
 
-* The input stream is a program to interact with your system by typing commands \(the _input stream_\) on the command line. 
+The input stream is a program to interact with your system by typing commands \(the _input stream_\) on the command line. 
 
 #### Output Stream
 
-*  The output stream displays command outputs and error messages. Error messages are referred to as the _**error stream**._
+The output stream displays command outputs and error messages. Error messages are referred to as the _**error stream**._
 
 ## Executables
 

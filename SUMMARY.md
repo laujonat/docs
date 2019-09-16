@@ -9,7 +9,7 @@
   * [Prerequisites](network-concepts/terminology.md)
   * [Network Interfaces](network-concepts/network-interfaces.md)
   * [Internet Protocols](network-concepts/internet-protocols.md)
-* [Familiarizing](neat-tips.md)
+* [Moving On](neat-tips.md)
 
 ## SSH
 
