@@ -21,7 +21,7 @@
 
 * [Overview](aws-ec2/overview/README.md)
   * [IAM - Identity Access Management](aws-ec2/overview/untitled.md)
-* [AMI Configuration](aws-ec2/ec2.md)
+* [AWS EC2 Instances](aws-ec2/ec2.md)
 
 ## Shell Interfaces <a id="shell-env"></a>
 

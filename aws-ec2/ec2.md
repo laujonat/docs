@@ -1,4 +1,4 @@
-# AMI Configuration
+# AWS EC2 Instances
 
 ## Amazon Machine Images \(AMI\)
 
