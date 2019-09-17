@@ -5,7 +5,7 @@ description: >-
   common commands I use regularly.
 ---
 
-# Moving On
+# Misc
 
 ## List Files
 

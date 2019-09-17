@@ -5,11 +5,11 @@
   * [System Overview](linux/untitled.md)
   * [Sudo Superuser](linux/sudo.md)
   * [Process Management](linux/useful-utilities-and-commands.md)
+  * [Misc](linux/neat-tips.md)
 * [Networking](network-concepts/README.md)
   * [Prerequisites](network-concepts/terminology.md)
   * [Network Interfaces](network-concepts/network-interfaces.md)
   * [Internet Protocols](network-concepts/internet-protocols.md)
-* [Moving On](neat-tips.md)
 
 ## SSH
 

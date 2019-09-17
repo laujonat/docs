@@ -1,14 +1,17 @@
 ---
-description: This section contains information for configuring a Linux shell environment.
+description: >-
+  This section contains information for configuring a Linux shell environment. 
+  This section is best suited  for readers who have experience with Linux/UNIX
+  environment.
 ---
 
 # Overview
 
-## Why Shell Scripting?
+## Introduction
 
-Shell scripting is an extensive topic that will not be covered entirely in this documentation. I still recommend you do explore various shell environments to find one that best suits your development needs. 
+Shell provides a layer between you and the intricacies of an operating system.  You can build complex operations by combining basic functions. Using programming constructs, you can then build functions for direct execution in the shell or save functions as _shell scripts_. 
 
-In simple terms, scripts run in the shell and read by the shell's interpreter. Maximize your developer efficiency by modifying or creating custom commands that suit your project needs. 
+Scripts run in the shell and read by the shell's interpreter. It is useful for creating custom commands and automating day to day tasks.  Ultimately, shell scripting maximizes developer efficiency and productivity. 
 
 Here are some things you can do with Shell environments:  
 
@@ -28,13 +31,13 @@ Here are some things you can do with Shell environments:
 
 Streams are created by entering characters from a keyboard. Different Linux [commands](https://searchwindowsserver.techtarget.com/definition/command), such as sed, allow users to manipulate the stream text, in this case editing the stream.
 
-#### Input Stream
+### Input Stream
 
-The input stream is a program to interact with your system by typing commands \(the _input stream_\) on the command line. 
+The _input stream_ is a program to interact with your system by typing commands on the command line. 
 
-#### Output Stream
+### Output Stream
 
-The output stream displays command outputs and error messages. Error messages are referred to as the _**error stream**._
+The _output stream_ displays command outputs and error messages. Error messages are referred to as the _error stream._
 
 ## Executables
 
