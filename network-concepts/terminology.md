@@ -4,21 +4,11 @@ description: >-
   is essential for getting your services online and running smoothly.
 ---
 
-# Prerequisites
+# Terminology
 
-## Networking Overview
-
-Before you can configure your remote server instance, it is important to understand common terms that you will encounter regularly. 
-
-Recommended Reads :  [Website Terminology](https://www.pagecloud.com/blog/website-terminology), [Stateless vs Stateful Protocols](https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-protocol/)
-
-From a high level perspective, networking refers to what or lack of information is transferred through a network. This process of transferring information is called a **Connection.**
-
-The chunks of information transferred over a network  known as **Packets.** 
-
-## **Terminology**
-
-This section provides a non-extensive list of common networking terminology encountered.  I highly recommend you do additional research on top of this brief term list. 
+{% hint style="info" %}
+This is a non-extensive list of common networking terminology encountered. 
+{% endhint %}
 
 ### **IPv4**
 
