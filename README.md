@@ -12,7 +12,7 @@ description: >-
 
 AWS EC2 infrastructure, SSH, and useful tooling.
 
-### Target Audience
+## Purpose
 
 This documentation is intended to be a lightweight guide and introduce key concepts involved configuring AWS EC2 instances. 
 
