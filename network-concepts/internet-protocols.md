@@ -16,14 +16,20 @@ IPv6 addresses have two logical parts:a 64-bit network prefix, and a 64-bit host
 
 
 
-`ipv6() {   
-   i = ifconfig en0 | grep inet6   
-   echo $i | awk -F " " '{print $2}' | sed 's/%en0//'   
-}`
+## Linux Utilities
 
 
 
-[https://www.justinrummel.com/working-with-ipv6-and-mac-os-x/](https://www.justinrummel.com/working-with-ipv6-and-mac-os-x/)
+
+
+```bash
+ipv6() { 
+   i = ifconfig en0 | grep inet6 
+   echo $i | awk -F " " '{print $2}' | sed 's/%en0//' 
+}
+```
+
+
 
 {% embed url="http://www.steves-internet-guide.com/ipv6-guide/" %}
 

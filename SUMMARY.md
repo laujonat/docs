@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Linux For The Cloud](README.md)
-* [Introduction](linux.md)
+* [Introduction](README.md)
+* [Linux](linux.md)
 * [System Overview](untitled/README.md)
   * [Process Management](untitled/useful-utilities-and-commands.md)
   * [Misc](untitled/neat-tips.md)
@@ -13,7 +13,7 @@
 
 ## SSH
 
-* [Digital Signatures](ssh/untitled.md)
+* [OpenSSH  Client](ssh/untitled.md)
 * [Authentication](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
 

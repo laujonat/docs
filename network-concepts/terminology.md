@@ -10,11 +10,11 @@ description: >-
 This is a non-extensive list of common networking terminology you will encounter. 
 {% endhint %}
 
-### **IPv4**
+### Internet Protocol version 4 \([**IPv4**](https://en.wikipedia.org/wiki/IPv4)**\)**
 
 Fourth revision of the Internet Protocol \(IP\) used to to identify devices on a network through an addressing system.
 
-### **IPv6**
+### Internet Protocol version 6 \([**IPv6**](https://en.wikipedia.org/wiki/IPv6_address)**\)**
 
 * IPv6 is the successor to Internet Protocol Version 4 \(IPv4\). 
 * Designed as an evolutionary upgrade to the Internet Protocol and will.

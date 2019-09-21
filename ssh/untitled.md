@@ -1,10 +1,4 @@
----
-description: >-
-  This section provides an overview to understanding SSH keys for user
-  authentication
----
-
-# Digital Signatures
+# OpenSSH  Client
 
 * [https://www.ssh.com/ssh/protocol/](https://www.ssh.com/ssh/protocol/)
 
