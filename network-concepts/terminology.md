@@ -7,7 +7,7 @@ description: >-
 # Terminology
 
 {% hint style="info" %}
-This is a non-extensive list of common networking terminology encountered. 
+This is a non-extensive list of common networking terminology you will encounter. 
 {% endhint %}
 
 ### **IPv4**
