@@ -4,7 +4,7 @@ description: >-
   servers.
 ---
 
-# Linux In The Cloud
+# Linux For The Cloud
 
 #### 🚀: [jonathanlau.io ](www.jonathanlau.io)▪ 💻[Github](https://www.github.com/laujonat) ▪ 💼: [LinkedIn](https://www.linkedin.com/in/jonathanhlau/)  ▪ 📝 [Medium](https://medium.com/@jonhlau28) 
 

@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Linux In The Cloud](README.md)
+* [Linux For The Cloud](README.md)
 * [Introduction](linux.md)
 * [System Overview](untitled/README.md)
   * [Process Management](untitled/useful-utilities-and-commands.md)
-  * [Sudo Superuser](untitled/sudo.md)
   * [Misc](untitled/neat-tips.md)
+* [Users And Groups](sudo.md)
 * [Networking](network-concepts/README.md)
   * [Terminology](network-concepts/terminology.md)
   * [Network Interfaces](network-concepts/network-interfaces.md)

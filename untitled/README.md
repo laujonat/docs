@@ -1,15 +1,12 @@
 ---
 description: >-
-  Linux is an open source, free to use operating system widely used in computer
-  hardware and software. This section will cover important system concepts for
-  new users.
+  This section will cover essential concepts for remote servers running Linux or
+  Linux-like operating systems.
 ---
 
 # System Overview
 
-## 
-
-## Filesystem Hierarchy Standard \(FHS\) <a id="firstHeading"></a>
+## Filesystem Hierarchy Standard \(FHS\)
 
 Windows, Mac, and UNIX are three of the most widely used operating systems today. Each of these operating systems contain their own set of standards and guidelines of programs running on their platform. 
 
