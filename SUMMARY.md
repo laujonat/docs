@@ -4,9 +4,9 @@
 * [Linux OS](linux.md)
 * [System Overview](untitled/README.md)
   * [Process Management](untitled/useful-utilities-and-commands.md)
-  * [CLI Commands](untitled/neat-tips/README.md)
-    * [Command Cheat Sheet](untitled/neat-tips/linux-unix-command-cheat-sheet.md)
-* [Users And Groups](sudo.md)
+  * [Users And Groups](untitled/sudo.md)
+* [CLI Commands](neat-tips/README.md)
+  * [Command Cheat Sheet](neat-tips/linux-unix-command-cheat-sheet.md)
 * [Web Servers](web-servers.md)
 
 ## Networking <a id="networking-1"></a>
