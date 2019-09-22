@@ -4,6 +4,10 @@ description: Concept and configuration guide into cloud servers and virtual mach
 
 # Introduction
 
+{% hint style="danger" %}
+**WORK IN PROGRESS**
+{% endhint %}
+
 {% hint style="info" %}
 As a prerequisite, information in this documentation will be best suited for programmers familiar with Linux environments and understand intermediate level network protocols.  
 {% endhint %}
