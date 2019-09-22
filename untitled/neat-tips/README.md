@@ -9,6 +9,8 @@ description: >-
 
 On Linux/Unix or Linux-like operating systems, it ships with an internal manual used to reference system commands and use cases. 
 
+[http://www.linfo.org/man.html](http://www.linfo.org/man.html)
+
 ```bash
 $ man ssh
    SSH(1) . BSD General Commands   Manual                  
@@ -27,14 +29,18 @@ SYNOPSIS
 
 Instead of using Google, Bing, or your best friend, it is to your advantage to spend time understanding how to effectively utilize Linux manuals. 
 
-More information here: [http://www.linfo.org/man.html](http://www.linfo.org/man.html)
+Some alternatives to the default Linux man pages:
 
-### 
-
-```text
+{% code-tabs %}
+{% code-tabs-item title="gem \| brew \| npm \| pip " %}
+```bash
 $ gem install bropages
 $ brew install cheat
+$ npm install -g tldr
+$ pip install --user manly
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## Navigation
 
@@ -83,13 +89,14 @@ $ man du
 
 ### `du`
 
-* `du -sh */` - Display disk usage for file, folder, directories
+* `du -sh */` - Display disk usage for file, folder, directories at the current location
+* `du -h <dir>` - Display human readable disk usage in human readable format
 
 ## Searching
 
+### `grep | egrep`
 
-
-### `awk`
+#### `awk`
 
 ```bash
 NAME
@@ -104,25 +111,19 @@ awk [ -F fs ] [ -v var=value ] [ 'prog' | -f progfile ] [ file ... ]
 * Get hostname if you know Host, get Host if you know Hostname
 
 ```bash
-awk -v h="172.31.98.85" '$1 == "Host" {r = $2} $1 == "Hostname" && $2 == h {print r; exit}' ~/.ssh/config
+$ awk -v h="172.31.98.85" '$1 == "Host" {r = $2} $1 == "Hostname" && $2 == h {print r; exit}' ~/.ssh/config
 ```
 
- **Source**
+#### `sed`
 
-* [https://unix.stackexchange.com/questions/430550/split-single-line-into-multiple-lines-newline-character-missing-for-all-the-lin](https://unix.stackexchange.com/questions/430550/split-single-line-into-multiple-lines-newline-character-missing-for-all-the-lin)
+Stream editor that reads the specified files, or the standard input if no files are specified, modifying the input as specified by a list of commands.
 
-### `sed`
-
- Stream editor that reads the specified files, or the standard input if no files are specified, modifying the input as specified by a list of commands.  
-
-
-#### Show shell startup time
-
-  
- `for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done`  
-
+```bash
+$ for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done
+```
 
 **Source**
 
 * [https://www.systutorials.com/docs/linux/man/1p-df/](https://www.systutorials.com/docs/linux/man/1p-df/)
+* [https://unix.stackexchange.com/questions/430550/split-single-line-into-multiple-lines-newline-character-missing-for-all-the-lin](https://unix.stackexchange.com/questions/430550/split-single-line-into-multiple-lines-newline-character-missing-for-all-the-lin)
 
