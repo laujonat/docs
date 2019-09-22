@@ -15,6 +15,8 @@ In Linux, this standard enables:
 * Software to predict the location of installed files and directories, and
 * Users to predict the location of installed files and directories.
 
+[https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/](https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/)
+
 ### Init System 
 
 #### `systemd`

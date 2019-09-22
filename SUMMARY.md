@@ -4,7 +4,8 @@
 * [Linux OS](linux.md)
 * [System Overview](untitled/README.md)
   * [Process Management](untitled/useful-utilities-and-commands.md)
-  * [Misc](untitled/neat-tips.md)
+  * [CLI Commands](untitled/neat-tips/README.md)
+    * [Command Cheat Sheet](untitled/neat-tips/linux-unix-command-cheat-sheet.md)
 * [Users And Groups](sudo.md)
 * [Web Servers](web-servers.md)
 
