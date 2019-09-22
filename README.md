@@ -22,14 +22,14 @@ Concept and environment configuration guides that are covered will be focused on
 
 | **Basis of comparison between GUI vs CLI** |                          **GUI** |                          **CLI** |
 | :--- | :--- | :--- |
-| Basic | This user interface enables the user to interact with electronic devices with the help of graphical icons and visual indicators. | This user interface enables a user to give a command  to interact with an electronic  device |
-| Ease of understating | The graphical user interface is visually intuitive. It is easy to understand for beginners | Due to the need to remembering commands, it is difficult to handle and requires expertise. |
-| Memory Requirement | It requires more memory as it consists of a lot of graphical components. | It requires less memory as compared to GUI. |
-| Speed | It generally uses a mouse to execute commands. The speed of GUI is Slower than CLI. | Because the keyboard is used to execute the commands, the speed of the CLI is Faster than GUI |
-| Appearance | One can change the appearance with a customizable option. |  It is not possible to change the appearance |
-| Flexibility | More flexible than CLI | Less flexible than GUI |
-| Device used | Keyboard and mouse | Keyboard |
-| Precision | Low as compared to the CLI | High as compared to the GUI |
+| `Basic` | This user interface enables the user to interact with electronic devices with the help of graphical icons and visual indicators. | This user interface enables a user to give a command  to interact with an electronic  device |
+| `Ease of understating` | The graphical user interface is visually intuitive. It is easy to understand for beginners | Due to the need to remembering commands, it is difficult to handle and requires expertise. |
+| `Memory Requirement` | It requires more memory as it consists of a lot of graphical components. | It requires less memory as compared to GUI. |
+| `Speed` | It generally uses a mouse to execute commands. The speed of GUI is Slower than CLI. | Because the keyboard is used to execute the commands, the speed of the CLI is Faster than GUI |
+| `Appearance` | One can change the appearance with a customizable option. |  It is not possible to change the appearance |
+| `Flexibility` | More flexible than CLI | Less flexible than GUI |
+| `Device used` | Keyboard and mouse | Keyboard |
+| `Precision` | Low as compared to the CLI | High as compared to the GUI |
 
 
 
