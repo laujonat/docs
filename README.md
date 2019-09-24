@@ -40,9 +40,9 @@ Concept and environment configuration guides that are covered will be focused on
 | `Device used` | Keyboard and mouse | Keyboard |
 | `Precision` | Low as compared to the CLI | High as compared to the GUI |
 
+{% hint style="success" %}
+Content pulled from **educba.com**.
 
-
-#### Source
-
-* [https://www.educba.com/gui-vs-cli/](https://www.educba.com/gui-vs-cli/)
+\*\*\*\*[**Original Page**](https://www.educba.com/gui-vs-cli/)\*\*\*\*
+{% endhint %}
 

@@ -87,14 +87,14 @@ The df utility displays statistics about the amount of free disk space on the sp
 $ man du
 ```
 
-### `du`
+#### `du`
 
 * `du -sh */` - Display disk usage for file, folder, directories at the current location
 * `du -h <dir>` - Display human readable disk usage in human readable format
 
 ## Searching
 
-### `grep | egrep`
+#### `grep | egrep`
 
 #### `awk`
 

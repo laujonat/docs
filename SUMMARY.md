@@ -18,9 +18,12 @@
 
 ## SSH
 
-* [OpenSSH  Client](ssh/untitled.md)
+* [Friendly Overview](ssh/friendly-overview/README.md)
+  * [File System & Configuration](ssh/friendly-overview/file-system-and-configuration.md)
 * [Authentication](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
+* [Practical Guides](ssh/practical-guides/README.md)
+  * [OpenSSH](ssh/practical-guides/untitled.md)
 
 ## AWS EC2
 
