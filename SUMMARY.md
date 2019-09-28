@@ -14,15 +14,20 @@
 * [Introduction](networking-1/networking.md)
 * [Terminology](networking-1/terminology.md)
 * [Internet Protocols](networking-1/internet-protocols.md)
-* [Network Interfaces](networking-1/network-interfaces.md)
+* [Network Management Protocols](networking-1/network-management-protocols.md)
+* [VPN](networking-1/vpn.md)
+* [Linux Utilities and Commands](networking-1/network-interfaces.md)
 
 ## SSH
 
-* [Friendly Overview](ssh/friendly-overview/README.md)
-  * [File System & Configuration](ssh/friendly-overview/file-system-and-configuration.md)
+* [Friendly Overview](ssh/friendly-overview.md)
+* [File System & Configuration](ssh/file-system-and-configuration.md)
 * [Authentication](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
 * [Practical Guides](ssh/practical-guides/README.md)
+  * [Setup A Linux Server Domain Name](ssh/practical-guides/setup-a-linux-server-domain-name.md)
+  * [Securely Login To Your Home Computer](ssh/practical-guides/securely-login-to-your-home-computer.md)
+  * [Transfer Files Remotely with SSH](ssh/practical-guides/transfer-files-remotely-with-ssh.md)
   * [OpenSSH](ssh/practical-guides/untitled.md)
 
 ## AWS EC2

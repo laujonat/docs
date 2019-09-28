@@ -16,6 +16,8 @@ _Networking_ refers to what information is intended or not intended to be transf
 
 ![credit: lucidchart](../.gitbook/assets/screen-shot-2019-09-17-at-5.00.01-pm.png)
 
+## Step by Step
+
 
 
 

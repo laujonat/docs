@@ -6,6 +6,10 @@ You can connect to a remote machine using the IPv4 or IPv6 addresses with their 
 
 ## Establishing Remote Connections
 
+Go through `known_hosts` and `authorized_hosts`
+
+
+
 Display internet addresses and their interface assignments.  
 
 ```bash
