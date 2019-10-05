@@ -17,7 +17,7 @@ The following command outputs process information for some user.  Breaking down 
 $ ps aux | grep ssh
 ```
 
-| USER | PID | CPU% | MEM% | VSZ | RSS | TTY | STAT | START | TIME | COMMAND |
+| USER | PID | %CPU | %MEM | VSZ | RSS | TTY | STAT | START | TIME | COMMAND |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | `tim` | `1` | `0.1` | `0.0` | `226444` | `110220` | `?` | `Ssl` | `Feb03` | `25:17` | `sshd: jon@pts/8` |
 
