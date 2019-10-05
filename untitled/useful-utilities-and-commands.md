@@ -9,9 +9,54 @@ description: >-
 
 ## Viewing Active Processes
 
-* The ps utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals. 
+The `ps` utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals. 
 
-#### Listing Processes
+The following command outputs process information for some user.  Breaking down each column:
+
+```bash
+$ ps aux | grep ssh
+```
+
+| USER | PID | CPU% | MEM% | VSZ | RSS | TTY | STAT | START | TIME | COMMAND |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `tim` | `1` | `0.1` | `0.0` | `226444` | `110220` | `?` | `Ssl` | `Feb03` | `25:17` | `sshd: jon@pts/8` |
+
+* **USER** = User owning the process
+* **PID** = Process ID of the process
+* **%CPU** = CPU time used divided by the time the process has been running.
+* **%MEM** = Ratio of the process’s resident set size to the physical memory on the machine
+* **VSZ** = Virtual memory usage of entire process \(in KiB\)
+* **RSS** = Resident set size, the non-swapped physical memory that a task has used \(in KiB\)
+* **TTY** = Controlling tty \(terminal\)
+* **STAT** = Multi-character process state
+* **START** = Starting time or date of the process
+* **TIME** = Cumulative CPU time
+* **COMMAND** = Command that started the process with all its arguments
+
+### Process State
+
+To find the state of a current process, the ps utility outputs process state codes in the  `STAT` column. 
+
+```text
+D Uninterruptible sleep (usually IO)
+R Running or runnable (on run queue)
+S Interruptible sleep (waiting for an event to complete)
+T Stopped, either by a job control signal or because it is being traced.
+W paging (not valid since the 2.6.xx kernel)
+X dead (should never be seen)
+Z Defunct ("zombie") process, terminated but not reaped by its parent.
+```
+
+```text
+< high-priority (not nice to other users)
+N low-priority (nice to other users)
+L has pages locked into memory (for real-time and custom IO)
+s is a session leader
+l is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
++ is in the foreground process group 
+```
+
+### Listing Processes
 
 ```bash
 # ps = process status
@@ -41,7 +86,7 @@ root  30569   0.0  0.0  4325312   5984   ??  Ss    6:49PM   0:00.05 sshd: user[p
 user  30568   0.0  0.0  4396884   5876 s007  S+    6:49PM   0:00.27 ssh localhost
 ```
 
-#### Killing Processes
+### Killing Processes
 
 * `ps aux` outputs the process identifier `PID` in the second column.
 

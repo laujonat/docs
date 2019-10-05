@@ -20,10 +20,10 @@
 
 ## SSH
 
-* [Friendly Overview](ssh/friendly-overview.md)
-* [File System & Configuration](ssh/file-system-and-configuration.md)
 * [Authentication](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
+* [Friendly Overview](ssh/friendly-overview.md)
+* [File System & Configuration](ssh/file-system-and-configuration.md)
 * [Practical Guides](ssh/practical-guides/README.md)
   * [Setup A Linux Server Domain Name](ssh/practical-guides/setup-a-linux-server-domain-name.md)
   * [Securely Login To Your Home Computer](ssh/practical-guides/securely-login-to-your-home-computer.md)
