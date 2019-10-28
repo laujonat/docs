@@ -13,7 +13,7 @@ Shell provides a layer between you and the intricacies of an operating system.  
 
 Scripts run in the shell and read by the shell's interpreter. It is useful for creating custom commands and automating day to day tasks.  Ultimately, shell scripting maximizes developer efficiency and productivity. 
 
-Here are some things you can do with Shell environments:  
+**Here are some things you can do with Shell environments:**  
 
 * Modify global and user profiles
 * Set environment variables when you log in or spawn a new shell
@@ -21,23 +21,38 @@ Here are some things you can do with Shell environments:
 * Maintain skeleton directories for new user accounts
 * Set your command search path
 
-**Sources**
+**Useful Reads**
 
 * [https://developer.ibm.com/tutorials/l-lpic1-105-1/](https://developer.ibm.com/tutorials/l-lpic1-105-1/)
 * [https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html](https://docs.oracle.com/cd/E19120-01/open.solaris/819-2379/userconcept-26/index.html)
 * [https://searchdatacenter.techtarget.com/definition/Linux-stream](https://searchdatacenter.techtarget.com/definition/Linux-stream)
 
-## Streams
+## I/O Redirection
 
-Streams are created by entering characters from a keyboard. Different Linux [commands](https://searchwindowsserver.techtarget.com/definition/command), such as sed, allow users to manipulate the stream text, in this case editing the stream.
+Linux provides a mechanism that allows users to manage inputs _**to**_ and outputs _**from**_ programs.  This process is known as **Streams.**
 
-### Input Stream
+![Source: https://www.putorius.net/linux-io-file-descriptors-and-redirection.html](../.gitbook/assets/image.png)
 
-The _input stream_ is a program to interact with your system by typing commands on the command line. 
+### **Streams**
 
-### Output Stream
+Linux shells use three standard streams:
 
-The _output stream_ displays command outputs and error messages. Error messages are referred to as the _error stream._
+* **Standard Input** – Generally, input is done by a keyboard. Commands are then executed when they are typed onto the display.
+* **Standard Output** – Displays the output from commands, usually to the terminal.
+* **Standard Error** – Displays error output from commands. It is usually sent to the same output as standard output, but it can be redirected.
+
+The streams are also numbered:
+
+* **stdin** \(**0**\)
+* **stdout** \(**1**\)
+* **stderr** \(**2**\)
+
+Different Linux [commands](https://searchwindowsserver.techtarget.com/definition/command), such as `sed`, allow users to manipulate the stream text, in this case editing the stream.
+
+#### Sources 
+
+* [Digital Ocean Linux I/O](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-i-o-redirection)
+* [Advanced Reading](https://www.putorius.net/linux-io-file-descriptors-and-redirection.html)
 
 ## Executables
 
