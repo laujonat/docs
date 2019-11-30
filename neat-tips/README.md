@@ -31,16 +31,14 @@ Instead of using Google, Bing, or your best friend, it is to your advantage to s
 
 Some alternatives to the default Linux man pages:
 
-{% code-tabs %}
-{% code-tabs-item title="gem \| brew \| npm \| pip " %}
+{% code title="gem \| brew \| npm \| pip " %}
 ```bash
 $ gem install bropages
 $ brew install cheat
 $ npm install -g tldr
 $ pip install --user manly
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Navigation
 

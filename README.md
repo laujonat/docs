@@ -18,9 +18,9 @@ As a prerequisite, information in this documentation will be best suited for pro
 * Understanding of internet networking concepts and system configuration strategies.  
 * Build familiarity of setup and configuration techniques of Amazon EC2 Instances.
 
-It will be up to the reader to expand upon information provided in order to configure server that suits their project/team objectives. 
+It will be up to the reader to expand upon information provided in order to configure server that suits their project/team objectives.
 
-![](.gitbook/assets/screen-shot-2019-09-21-at-4.25.56-am.png)
+![](.gitbook/assets/screen-shot-2019-11-30-at-1.16.00-am.png)
 
 ## Command Line Interface \(CLI\) vs Graphical User Interface \(GUI\)
 

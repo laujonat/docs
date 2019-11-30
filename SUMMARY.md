@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Linux OS](linux.md)
+* [Background](linux.md)
 * [System Overview](untitled/README.md)
   * [Process Management](untitled/useful-utilities-and-commands.md)
   * [Users And Groups](untitled/sudo.md)

@@ -5,7 +5,7 @@ description: >-
   servers.
 ---
 
-# Linux OS
+# Background
 
 Named after its creator, [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), Linux is an operating system made available to the world for free. 
 
@@ -35,13 +35,13 @@ To ensure the Linux system is as reliable and secure an operating system as poss
 
 ## Linux Distros
 
-_Distros_ is short for _distributions_ when used to describe a specific Linux environment.  These are operating systems that run off the Linux kernel.
+_Distros_ is short for _distributions_ when used to describe a specific Linux environment.  These are operating systems that run off the Linux kernel. Typically, a distro will come will a set of bundled software with basic applications pre-installed. Distros are categorized by their package management system. Some of the more popular distos are:
 
+* RPM-based
+* Debian-based
+* Pacman-based
 
-
-
-
-
+You can find more information on distributions from [Wikipedia](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 
 

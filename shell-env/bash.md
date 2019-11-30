@@ -23,8 +23,8 @@ In the Bash, you can use the uppercase variable name equal to some value to set 
 * Bash scripts are executed sequentially by file precedence.  For example, if `bash_profile` does not exist, then bash will attempt to execute `bash_login`, then `profile.`
 * Programmatic example:
 
-{% code-tabs %}
-{% code-tabs-item title="exec\_order" %}
+{% tabs %}
+{% tab title="exec\_order" %}
 ```bash
 execute /etc/profile
 IF ~/.bash_profile exists THEN
@@ -39,16 +39,16 @@ ELSE
     END IF
 END IF
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="logout" %}
+{% tab title="logout" %}
 ```bash
 IF ~/.bash_logout exists THEN
   execute ~/.bash_logout
 END IF
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 When you logout, `~/.bash_logout` is executed
 
